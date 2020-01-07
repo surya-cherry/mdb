@@ -1,0 +1,72 @@
+{
+    "aquaman": {
+        "title": "Aquaman",
+        "releasedate": "21 December 2018",
+        "cast": "Jason Momoa, Amber Heard, Willem Dafoe.",
+        "lineofaction": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+        "trailer": "https://www.youtube.com/watch?v=2wcj6SrX4zw"
+    },
+    "bop": {
+        "title": "Birds of Prey",
+        "releasedate": "7 February 2020",
+        "cast": "Margot Robbie, Mary Elizabeth Winstead, Ewan McGregor.",
+        "lineofaction": "After splitting with the Joker, Harley Quinn joins superheroes Black Canary, Huntress and Renee Montoya to save a young girl from an evil crime lord.",
+        "trailer": "https://www.youtube.com/watch?v=kGM4uYZzfu0"
+    },
+    "cm": {
+        "title": "Captain Marvel",
+        "releasedate": "8 March 2019",
+        "cast": "Brie Larson, Samuel L. Jackson, Ben Mendelsohn.",
+        "lineofaction": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+        "trailer": "https://www.youtube.com/watch?v=0LHxvxdRnYc"
+    },
+    "endgame": {
+        "title": "Avengers Endgame",
+        "releasedate": "26 April 2019",
+        "cast": "26 April 2019",
+        "lineofaction": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+    },
+    "infinitywar": {
+        "title": "Avengers Infinity War",
+        "releasedate": "27 April 2018",
+        "cast": "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo.",
+        "lineofaction": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "trailer": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+    },
+    "jl": {
+        "title": "Justice League",
+        "releasedate": "17 November 2017",
+        "cast": "Ben Affleck, Gal Gadot, Jason Momoa.",
+        "lineofaction": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.",
+        "trailer": "https://www.youtube.com/watch?v=3cxixDgHUYw"
+    },
+    "joker": {
+        "title": "Joker",
+        "releasedate": "4 October 2019",
+        "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz.",
+        "lineofaction": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "trailer": "https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    },
+    "shazam": {
+        "title": "Shazam",
+        "releasedate": "5 April 2019",
+        "cast": "Zachary Levi, Mark Strong, Asher Angel.",
+        "lineofaction": "A newly fostered young boy in search of his mother instead finds unexpected super powers and soon gains a powerful enemy.",
+        "trailer": "https://www.youtube.com/watch?v=uilJZZ_iVwY"
+    },
+    "ww": {
+        "title": "Wonder Woman",
+        "releasedate": "2 June 2017",
+        "cast": "Gal Gadot, Chris Pine, Robin Wright.",
+        "lineofaction": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+        "trailer": "https://www.youtube.com/watch?v=1Q8fG0TtVAY"
+    },
+    "ww1984": {
+        "title": "Wonder Woman 1984",
+        "releasedate": "5 June 2020",
+        "cast": "Pedro Pascal, Gal Gadot, Chris Pine.",
+        "lineofaction": "Plot unknown. A sequel to the 2017 superhero film 'Wonder Woman.'",
+        "trailer": "https://www.youtube.com/watch?v=sfM7_JLk-84"
+    }
+}

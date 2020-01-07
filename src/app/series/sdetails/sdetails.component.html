@@ -1,0 +1,10 @@
+<div class="parent">
+  <div class="movie-head" *ngFor="let serie of series">
+    <div class="img-div"><img class="movie-img"  width="150" height="200" src="{{ api_url + serie.img }}"></div>
+    <div class="details-div"><span class="details-span">Title:</span> {{ serie.title }}</div>
+    <div class="details-div"><span class="details-span">Release Date:</span> {{ serie.release_date }}</div>
+    <div class="details-div"><span class="details-span">Cast:</span> {{ serie.cast }}</div>
+    <div class="details-div"><span class="details-span">Line of Action:</span> {{ serie.line_of_action }}</div>
+    <span class="details-span">Trailer: </span><a href="{{ serie.trailer }}">{{ serie.trailer }}</a>
+  </div>
+</div>

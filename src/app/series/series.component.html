@@ -1,0 +1,10 @@
+<div class="card-group">
+  <div *ngFor="let serie of series;">
+  <div class="card">
+    <div class="card-body">
+        <img class="card-img-top" height="200" width="150" src="{{ api_url + serie.img }}">
+        <div class="card-title"><a href='/sdetails/{{ serie.id }}'>{{ serie.title }}</a></div>
+      </div>
+    </div>
+  </div>
+</div>

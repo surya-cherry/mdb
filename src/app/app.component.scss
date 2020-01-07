@@ -1,0 +1,66 @@
+.hm-gradient {
+    background-color: #1C2331!important;
+
+    height: auto;
+}
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: black;
+}
+
+
+.parent{
+    text-align:center;
+    background-color: black;
+}
+
+.head{
+    background-color: gold;
+    text-align: center;
+    height: 40px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.title{
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.comp{
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.movies{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.button{
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.dflex{
+    display: flex;
+    justify-content: center;
+}
+.bflex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mbutton{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.menu{
+    padding-left: 15px;
+}
