@@ -1,0 +1,28 @@
+CREATE DATABASE IF NOT EXISTS mmdb;
+
+USE mmdb;
+
+create table movies(
+   id 	INTEGER(5),
+   title VARCHAR(100),
+   release_date VARCHAR(100),
+   cast VARCHAR(200),
+   line_of_action VARCHAR(1000),
+   trailer VARCHAR(200),
+   img VARCHAR(50)
+);
+
+
+create table series(
+   id 	INTEGER(5),
+   title VARCHAR(100),
+   release_date VARCHAR(100),
+   cast VARCHAR(200),
+   line_of_action VARCHAR(1000),
+   trailer VARCHAR(200),
+   img VARCHAR(50)
+);
+
+LOAD DATA LOCAL INFILE 'movies.csv' INTO TABLE movies FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'series.csv' INTO TABLE series FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
