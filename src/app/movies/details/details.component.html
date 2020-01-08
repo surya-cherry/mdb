@@ -1,10 +1,22 @@
 <div class="parent">
   <div class="movie-head" *ngFor="let movie of movies">
-    <div class="img-div"><img class="movie-img"  width="150" height="200" src="{{ api_url + movie.img }}"></div>
+    <div class="img-div"><img class="movie-img" width="150" height="200" src="{{ api_url + movie.img }}"></div>
     <div class="details-div"><span class="details-span">Title:</span> {{ movie.title }}</div>
     <div class="details-div"><span class="details-span">Release Date:</span> {{ movie.release_date }}</div>
     <div class="details-div"><span class="details-span">Cast:</span> {{ movie.cast }}</div>
     <div class="details-div"><span class="details-span">Line of Action:</span> {{ movie.line_of_action }}</div>
     <span class="details-span">Trailer: </span><a href="{{ movie.trailer }}">{{ movie.trailer }}</a>
+    <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 star</label>
+    </div>
   </div>
 </div>
