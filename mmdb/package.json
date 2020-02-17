@@ -1,0 +1,14 @@
+{
+  "name": "mmdb",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev-start": "node ./index.js"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Surya Sai",
+  "license": "ISC"
+}

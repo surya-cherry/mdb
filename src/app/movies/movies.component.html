@@ -1,9 +1,9 @@
 <div class="card-group">
   <div *ngFor="let movie of movies;">
-  <div class="card">
-    <div class="card-body">
+    <div class="card">
+      <div class="card-body" style = " cursor: pointer;" (click)="moviesMethod(movie.id)">
         <img class="card-img-top" height="200" width="150" src="{{ api_url + movie.img }}">
-        <div class="card-title"><a href='/details/{{ movie.id }}'>{{ movie.title }}</a></div>
+        <div class="card-title">{{ movie.title }}</div>
       </div>
     </div>
   </div>

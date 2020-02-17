@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { SdetailsComponent } from './series/sdetails/sdetails.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './home/signup/signup.component';
+import { CommonServiceService } from './common-service.service';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,7 @@ import { SignupComponent } from './home/signup/signup.component';
       }
    ])
   ],
-  providers: [],
+  providers: [CommonServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

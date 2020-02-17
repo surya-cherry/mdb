@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import {ActivatedRoute} from '@angular/router';
+import {CommonServiceService} from '../../common-service.service';
+import { ActivatedRoute, Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-details',
@@ -9,15 +10,26 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class DetailsComponent implements OnInit {
   movies;
+  sub: any;
+  id: number;
   api_url = 'http://localhost:3000/';
-  constructor(private http: HttpClient, private route: ActivatedRoute) {
-    this.route.params.subscribe( params => {
-      this.http.get(`http://localhost:3000/details?id=${params.id}`).subscribe( (res) => {
-        console.log(res);
-        this.movies = res;
-      });
-    } );
+  // tslint:disable-next-line:no-shadowed-variable
+  constructor(private commonservice: CommonServiceService, private router: Router, private route: ActivatedRoute) {
+
   }
   ngOnInit() {
+    this.sub = this.route.queryParams
+      .subscribe(params => {
+        // Defaults to 0 if no query param provided.
+        this.detailsMethod(+params['id'] || 0);
+
+      });
+   }
+
+   detailsMethod(id: number) {
+    this.commonservice.showMyMovieDetails(id).subscribe( (res) => {
+      console.log(res);
+      this.movies = res;
+    });
    }
 }

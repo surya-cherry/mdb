@@ -1,3 +1,35 @@
-.card-img-top{
+.card-img-top {
     width: unset;
-}
+  }
+  
+  .card {
+    -webkit-box-shadow: 0px 3px 64px 0px rgba(122, 155, 199, 0.75);
+    -moz-box-shadow: 0px 3px 64px 0px rgba(122, 155, 199, 0.75);
+    box-shadow: 0px 3px 64px 0px rgba(122, 155, 199, 0.75);
+    background: black;
+      color: white;
+  }
+  .card-group,
+  .card {
+    margin: 10px;
+  }
+  
+  .card-body:hover {
+    background: rgb(0, 56, 102);
+    color: white;
+    transition: all 0.3s ease;
+  
+  }
+  
+  .card-body:hover > .card-title {
+      text-shadow: 2px 2px 4px #aaaaaa;
+      font-weight: bold;
+      transition: all 0.5s ease;
+    }
+  // img.card-img-top:hover {
+  //   width: 180px;
+  //   height: 250px;
+  //   transition: all 3s ease;
+  // }
+  
+  

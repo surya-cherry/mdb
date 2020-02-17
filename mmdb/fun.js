@@ -6,7 +6,7 @@
         connection.query('SELECT * from MOVIES', function (error, results, fields) {
             if (error) throw error;
             res.send(results);
-            console.log('The solution is: ', results);
+            // console.log('The solution is: ', results);
           });
 
       });
@@ -15,7 +15,7 @@
         connection.query('SELECT * from SERIES', function (error, results, fields) {
             if (error) throw error;
             res.send(results);
-            console.log('The solution is: ', results);
+            // console.log('The solution is: ', results);
           });
 
       });
@@ -24,7 +24,7 @@
         connection.query('SELECT * from MOVIES where id = '+ id, function (error, results, fields) {
             if (error) throw error;
             res.send(results);
-            console.log('The solution is: ', results);
+            // console.log('The solution is: ', results);
           });
 
       });
@@ -33,7 +33,7 @@
         connection.query('SELECT * from SERIES where id = '+ id, function (error, results, fields) {
             if (error) throw error;
             res.send(results);
-            console.log('The solution is: ', results);
+            // console.log('The solution is: ', results);
           });
 
       });

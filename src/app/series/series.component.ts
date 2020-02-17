@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { CommonServiceService } from '../common-service.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-series',
@@ -10,14 +11,17 @@ export class SeriesComponent implements OnInit {
   series;
   api_url = 'http://localhost:3000/';
 
-  constructor(private http: HttpClient) {
-    this.http.get(' http://localhost:3000/series ').subscribe( (res) => {
+  constructor(private commonservice: CommonServiceService, private router: Router) {
+  }
+
+  ngOnInit() {
+    this.commonservice.showMySeries().subscribe( (res) => {
       console.log(res);
       this.series = res;
     });
   }
-
-  ngOnInit() {
-  }
+  seriesMethod(id: number) {
+    this.router.navigate(['/sdetails'], { queryParams: { id: id } });
+   }
 
 }
